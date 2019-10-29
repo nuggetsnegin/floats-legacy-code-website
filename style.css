@@ -109,6 +109,10 @@ button:hover {
     /* border: 2px solid green; */
 }
 
+.hamburger-menu{
+    display: none;
+}
+
 /*HEADER*/
 .hero {
     background: url(Thunder-Force-Stadium-assets/header-image.jpg);
@@ -245,8 +249,18 @@ nav li:hover {
 
 .icons li {
     float: left;
-    padding: 20px;
-    width: calc((100%) / 3);
+    margin-right: 10px;
+    width: calc((100% - 30px) / 3);
+}
+
+.icons ul{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.icons i{
+    font-size: 6rem;
+    padding-bottom: 10px;
 }
 
 .icons li:nth-of-type(3n) {
@@ -386,8 +400,6 @@ footer button {
     }
 }
 
-/* Landscape phones and down */
-/*from 0 to 480px*/
 @media (max-width: 1200px) {
     .hero h1 {
         max-width: 45%;
@@ -432,19 +444,11 @@ footer button {
 
 @media (max-width: 1000px) {
     .hero {
-        height: 80vh;
+        min-height: 80vh;
     }
 
     .hero h3 {
         font-size: 2rem;
-    }
-
-    header nav {
-        display: none;
-    }
-
-    .social-media-icons {
-        display: none;
     }
 
     .perform-content,
@@ -511,12 +515,34 @@ footer button {
 
 @media (max-width: 800px) {
 
+    .hero {
+        min-height: 60vh;
+    }
+
     .hero h1 {
         max-width: 65%;
     }
 
     .hero h3 {
         max-width: 65%;
+    }
+
+    header nav {
+        display: none; /*hide navigation header*/
+    }
+
+    .hamburger-menu{
+        display: block;
+        float: right;
+    }
+
+    .hamburger-menu i{
+        font-size: 5rem;
+        padding: 40px;
+    }
+
+    .social-media-icons {
+        display: none;
     }
 
     .perform-content,
@@ -530,6 +556,14 @@ footer button {
         padding: 50px 0px;
     }
 
+    .icons i{
+        font-size: 4rem;
+    }
+
+    .icons h4{
+        margin-bottom: 60px;
+    }
+    
     .social-media {
         padding: 50px 0px;
     }
@@ -619,7 +653,7 @@ footer button {
         padding: 10px;
     }
     .hero{
-        height: 60vh;
+        min-height: 60vh;
     }
     h2{
         font-size: 2.5rem;
