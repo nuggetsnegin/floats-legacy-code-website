@@ -100,10 +100,11 @@ button:hover {
     text-shadow: 1px 1px #9200FF;
 }
 
-.wrapper { /*not sure if this is necessary*/
+.wrapper { /*not sure if this is necessary or best practice for constraining content on very large screens, 
+    will wrap page and add whitespace on the sides*/
     margin: 0 auto;
     width: 90%;
-    max-width: 3200px;
+    max-width: 2200px;
 }
 
 .outer-wrapper{
