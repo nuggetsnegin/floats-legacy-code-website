@@ -114,7 +114,7 @@ button:hover {
     background: url(Thunder-Force-Stadium-assets/header-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    min-height: 90vh; /*used min height because of miko said its good for it not expanding!*/
     /*more accessible than 100vh, shows a slither of more content*/
     background-position: center;
 }
