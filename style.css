@@ -536,11 +536,15 @@ footer button {
     .hamburger-menu{
         display: block;
         float: right;
+        position: fixed; /*so it stays on the screen during scroll*/
+        top: 0;
+        right: 0;
     }
 
     .hamburger-menu i{
         font-size: 5rem;
-        padding: 40px;
+        padding: 20px;
+        z-index: 1; /*make hamburger menu float ontop of content!*/
     }
 
     .social-media-icons {
