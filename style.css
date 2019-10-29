@@ -100,10 +100,10 @@ button:hover {
     text-shadow: 1px 1px #9200FF;
 }
 
-.wrapper {
+.wrapper { /*not sure if this is necessary*/
     margin: 0 auto;
     width: 90%;
-    max-width: 1600px;
+    max-width: 3200px;
 }
 
 .outer-wrapper{
