@@ -673,4 +673,12 @@ footer button {
     nav ul li a{
         padding: 3px;
     }
+
+    .icons h4{
+        font-size: 1.7rem;
+    }
+
+    .hamburger-menu i{
+        font-size: 3.5rem;
+    }
 }
