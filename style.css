@@ -9,8 +9,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 /*MAIN STYLES*/
 html {
     /*for rem calculations, always in HTML*/
-    font-size: 62.5%;
-    /*10 pixels*/
+    font-size: 62.5%; /*10 pixels*/
 }
 
 body {
@@ -23,8 +22,7 @@ body {
 img {
     width: 100%;
     /*fix collapse of image going past parent container, using width instead of max width so images stretch on higher resolutions*/
-    display: block;
-    /*fixes 3px bottom ghost margin on images*/
+    display: block; /*fixes 3px bottom ghost margin on images*/
 }
 
 ul,
@@ -106,7 +104,12 @@ button:hover {
     margin: 0 auto;
     width: 90%;
     max-width: 1600px;
-    /* border: 2px solid green; */
+}
+
+.outer-wrapper{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .hamburger-menu{
@@ -118,7 +121,7 @@ button:hover {
     background: url(Thunder-Force-Stadium-assets/header-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 90vh; /*used min height because of miko said its good for it not expanding!*/
+    min-height: 90vh; /*used min height because Miko said its good for it not expanding :D !*/
     /*more accessible than 100vh, shows a slither of more content*/
     background-position: center;
 }
@@ -178,12 +181,6 @@ nav ul li a {
 nav li:hover {
     text-decoration: underline;
 }
-
-/* nav ul li{
-    display: inline-block;
-    margin-top: 2%;
-    padding: 20px 40px 0px 0px; 
-} */
 
 /*PERFORM-EXPERIENCE SECTION*/
 .perform-experience {
@@ -264,8 +261,7 @@ nav li:hover {
 }
 
 .icons li:nth-of-type(3n) {
-    /*remove extra padding on the right*/
-    margin-right: 0px;
+    margin-right: 0px;  /*remove extra padding on the right*/
 }
 
 .icons li:hover {
@@ -296,15 +292,12 @@ nav li:hover {
 }
 
 .social-media li {
-    padding: 0;
-    /*remove extra padding from li*/
+    padding: 0; /*remove extra padding from li*/
 }
 
 .social-media li:nth-of-type(3n) {
-    /*remove extra margin on the right*/
-    margin-right: 0px;
+    margin-right: 0px; /*remove extra margin on the right*/
 }
-
 
 /*FOOTER*/
 footer {
@@ -675,7 +668,7 @@ footer button {
     }
 
     .icons h4{
-        font-size: 1.7rem;
+        font-size: 1rem;
     }
 
     .hamburger-menu i{
