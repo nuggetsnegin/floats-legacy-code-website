@@ -645,6 +645,10 @@ footer button {
         line-height: 50px;
     }
 
+    .hero{
+        min-height: 60vh;
+    }
+
     .hero h3 {
         font-size: 1.5rem;
         padding: 10px;
@@ -653,18 +657,17 @@ footer button {
     nav ul li a{
         padding: 10px;
     }
-    .hero{
-        min-height: 60vh;
-    }
+
     h2{
         font-size: 2.5rem;
     }
+    
     nav ul li a{
         padding: 3px;
     }
 
     .icons h4{
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 
     .hamburger-menu i{
