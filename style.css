@@ -104,11 +104,11 @@ button:hover {
     will wrap page and add whitespace on the sides*/
     margin: 0 auto;
     width: 90%;
-    max-width: 2200px;
+    max-width: 1600px;
 }
 
 .outer-wrapper{
-    max-width: 1600px;
+    max-width: 2000px;
     width: 100%;
     margin: 0 auto;
 }
@@ -403,6 +403,10 @@ footer button {
         max-width: 45%;
     }
 
+    .hero-text{
+        padding: 50px 0;
+    }
+
     .perform-image,
     .experience-image {
         width: 100%;
@@ -516,10 +520,6 @@ footer button {
 
     .hero {
         min-height: 70vh;
-    }
-
-    .hero-text{
-        padding: 50px 0;
     }
 
     .hero h1 {
