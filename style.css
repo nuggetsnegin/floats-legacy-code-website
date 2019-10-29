@@ -157,6 +157,7 @@ nav {
     float: left;
     width: 100%;
     position: relative;
+    overflow: hidden; /*fix edge case of landscape mode on iphone x adding whitespace*/
 }
 
 nav ul {
@@ -164,7 +165,6 @@ nav ul {
     position: relative;
     left: 50%;
     text-align: center;
-    overflow: hidden;
 }
 
 nav ul li {
