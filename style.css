@@ -544,7 +544,7 @@ footer button {
     .hamburger-menu i{
         font-size: 5rem;
         padding: 20px;
-        z-index: 1; /*make hamburger menu float ontop of content!*/
+        z-index: 1; /*make hamburger menu float ontop of content! thanks to yiying for tip :D */
     }
 
     .social-media-icons {
