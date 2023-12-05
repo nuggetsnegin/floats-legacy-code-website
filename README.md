@@ -13,6 +13,6 @@ Used git!
 
 ## Authors
 
-* **Negin Melina Sauermann** - [nuggetsnegin](https://github.com/nuggetsnegin)
+* **Negi** - [nuggetsnegin](https://github.com/nuggetsnegin)
 
 
